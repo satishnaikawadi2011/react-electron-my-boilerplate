@@ -1,7 +1,17 @@
 {
   "name": "electron-react-demo",
   "version": "0.1.0",
-  "main":"./electron/main.js", 
+  "main":"public/electron.js", 
+  "description": "React Electron demo application.",
+  "author": "satishnaikawadi2011",
+  "build":{
+    "extends":null,
+    "appId": "com.example.electron-cra",
+    "files": [
+      "./build/**/*",
+      "./public/electron.js"
+    ]
+  },
   "homepage": "./",
   "private": true,
   "dependencies": {
